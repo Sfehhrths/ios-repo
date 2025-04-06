@@ -1,0 +1,33 @@
+Package: com.alaise.azule
+Version: 0.7.7
+Architecture: iphoneos-arm
+Maintainer: Alaise
+Depends: odcctools, bzip2, gzip, zstd, xz-utils, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst, moe.misty.fouldecrypt
+Filename: pool/main/iphoneos-arm64/com.alaise.azule_0.7.7_iphoneos-arm.deb
+Size: 12878
+MD5sum: 87c8f1a9a4effb81111eacfd5d0724e4
+SHA1: 0b78db3a5f19395db5ed8035ed57518f07de3f69
+SHA256: a11c6ebf70f734e4a2dab89428dd00f03cbf9bdce7575de281f89d2275adb9ca
+Section: Utilities
+Priority: optional
+Description: A CLI tool that injects tweaks into jailed iOS apps
+Author: Alaise
+Name: Azule
+
+Package: moe.misty.fouldecrypt
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: misty
+Installed-Size: 1000
+Depends: zip, firmware (>= 14.0)
+Filename: pool/main/iphoneos-arm64/moe.misty.fouldecrypt_0.0.5_iphoneos-arm.deb
+Size: 85394
+MD5sum: 006e0d426841af62be34cfa6bd62d5d3
+SHA1: 7a01514d6d8d73464383d32e5307a38e2591e444
+SHA256: 7781e2c84effb705e494bf127e86700b17b535f22dcf518a5c9bcecbe6bdc2a6
+Section: System
+Description: Directly decrypt binaries like flexdecrypt, but also supports iOS 14
+Tag: role::hacker
+Author: misty
+Name: fouldecrypt
+
